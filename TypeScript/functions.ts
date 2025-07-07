@@ -3,3 +3,7 @@ function greet(name: string): string{
 }
 
 console.log(greet("Saidabror"));
+
+
+const square = (x: number): number => x*x;
+console.log(square(6));
